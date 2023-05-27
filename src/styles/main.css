@@ -1,0 +1,63 @@
+#main-component{
+    background-color: rgb(49, 49, 49);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#signOut{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#signOut button{
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    border: none;
+    background-color: rgb(255, 172, 47);
+}
+
+#signOut button:hover{
+    color: black;
+    cursor: pointer;
+    box-shadow: inset 3px 4px 15px black;
+}
+
+#items{
+    display: flex;
+}
+
+#items div{
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#items div p{
+    text-align: center;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#items div:hover{
+    color: black;
+    cursor: pointer;
+    box-shadow: inset 3px 4px 15px black;
+}
+
+#todo{
+    background-color: rgb(41, 180, 41);
+}
+
+#notes{
+    background-color: rgb(31, 100, 228);
+}
+

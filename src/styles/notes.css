@@ -1,0 +1,116 @@
+#notes-component{
+    background-color: rgb(49, 49, 49);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-and-signOut{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#home-and-signOut button{
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    margin-bottom: 0;
+    border: none;
+    background-color: rgb(255, 172, 47);
+}
+
+#home-and-signOut button:hover{
+    color: black;
+    cursor: pointer;
+    box-shadow: inset 3px 4px 15px black;
+}
+
+#notes-app{
+    padding: 50px;
+}
+
+#notes-header button{
+    width: 80px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#notes-header button:hover{
+    background-color: rgb(48, 185, 48);
+    cursor: pointer;
+    /* color: black; */
+    box-shadow: inset 3px 4px 15px black;
+}
+
+#notes-header input{
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+#notes-list{
+    width: 600px;
+    background-color: rgb(158, 7, 7);
+    min-height: 200px;
+    max-height: 800px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.notes-items{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notes-items-buttons button{
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(153, 153, 153);
+    box-shadow: inset 3px 4px 6px black;
+}
+
+.edit-btn:hover{
+    background-color: rgb(31, 121, 255);
+    cursor: pointer;
+    color: black;
+    box-shadow: inset 1px 2px 3px black;
+}
+
+.delete-btn:hover{
+    background-color: rgb(255, 66, 66);
+    color: black;
+    cursor: pointer;
+    box-shadow: inset 1px 2px 3px black;
+}
+
+#note-context{
+    margin-top: 10px;
+    min-height: 40px;
+    max-width: 600px;
+}
+
+.notes{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    text-align: center;
+}
+
+.notes:hover{
+    cursor: pointer;
+}

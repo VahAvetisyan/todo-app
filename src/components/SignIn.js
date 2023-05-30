@@ -19,7 +19,7 @@ function Registration() {
         const usersRef = doc(db, "Users", `${auth.lastNotifiedUid}`);
         setDoc(
           usersRef,
-          { username: username, todoItems: [] },
+          { username: username, todoItems: [],notesItems: []},
           { merge: true }
         );
         navigate("/");
